@@ -1,21 +1,39 @@
-# Economic Data Analysis with Fred & Pandas
+# Sentiment Analysis in Python
 
-This project utilizes the Fred API and Pandas for economic data analysis, focusing on the unemployment and labor force participation rates across U.S. states.
+This project demonstrates sentiment analysis in Python using VADER and a pretrained Roberta model. It is part of a tutorial available on the [Rob Mulla ](https://www.youtube.com/watch?v=QpzMWQvxXWk&t) Youtube channel.
 
-## Highlights
+## Project Overview
 
-- `Objective:` Analyze economic data using Fred API.
-- `Tools:` Pandas, Matplotlib, Plotly Express.
-- `Quick Start:` Install dependencies, set up the Fred API key, and explore unemployment rates.
+- **Objective:** Analyze sentiments in Amazon Fine Food Reviews.
+- **Techniques:**
+  - VADER (Valence Aware Dictionary and sEntiment Reasoner) - Bag of Words approach
+  - Roberta Pretrained Model from Huggingface
 
-## Features
+## Project Structure
 
-- Visualize S&P 500 trends.
-- Analyze state-wise unemployment rates.
-- Compare unemployment rates with labor force participation.
+- `Notebook`: Jupyter notebook with step-by-step implementation.
+- `Data`: Subset of Amazon Fine Food Reviews for demonstration.
+
+## How to Use
+
+1. Clone the repository.
+2. Open and run the Jupyter notebook.
+
+## Results
+
+- Visualizations of sentiment scores using VADER.
+- Comparison of sentiment scores between VADER and Roberta model.
+
+## Examples
+
+- View positive 1-star and negative 5-star reviews where model scores differ.
+
+## Quick Sentiment Predictions
+
+- Utilize the Transformers Pipeline for quick sentiment predictions.
 
 ## Conclusion
 
-Explore, adapt, and leverage the code for your economic data projects. For questions or improvements, feel free to reach out. Happy coding! 📊 `by Kaury Martins 2024`
+Explore and adapt the code for your projects! If you find it helpful, consider liking and subscribing to the [Rob Mulla](https://www.youtube.com/@robmulla) Youtube channel, the guy who i saw from Youtube. Happy coding! 🚀 `by Kaury Martins 2024`
 
 
